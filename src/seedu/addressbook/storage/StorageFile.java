@@ -144,5 +144,10 @@ public class StorageFile {
     public String getPath() {
         return path.toString();
     }
+    if(!path.toFile().exists())
+
+	{
+		throw new StorageOperationException("File does not exist!");
+	}
 
 }
