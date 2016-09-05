@@ -21,7 +21,7 @@ public class Person implements ReadOnlyPerson {
     /**
      * Assumption: Every field must be present and not null.
      */
-    public Person(Name name, Phone phone, Email email, Address address, UniqueTagList tags) {
+    public Person(Name name, Phone phone, Email email, Address address, UniqueTagList tags, int sequenceNumber) {
         this.name = name;
         this.phone = phone;
         this.email = email;
