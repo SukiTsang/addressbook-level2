@@ -1,0 +1,8 @@
+package seedu.addressbook.data.person;
+
+public interface Printable{
+
+//produces a printable string representation of the object
+
+     public String getPrintableString();
+}
